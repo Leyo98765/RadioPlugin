@@ -1,0 +1,41 @@
+{
+  "name": "Radioplugin",
+  "version": "1.0.0",
+  "description": "Plugin for Volumio",
+  "author": "Your Name",
+  "keywords": [
+    "volumio",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "some-dependency": "^1.0.0",
+    "another-dependency": "^2.0.0"
+  },
+  "volumio": {
+    "name": "Radioplugin",
+    "category": "miscellaneous",
+    "version": "1.0.0",
+    "description": "My plugin description",
+    "icon": "fa-puzzle-piece",
+    "config": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "myProperty": {
+            "title": "My Property",
+            "description": "My property description",
+            "type": "string",
+            "default": "myDefaultValue"
+          },
+          "anotherProperty": {
+            "title": "Another Property",
+            "description": "Another property description",
+            "type": "number",
+            "default": 42
+          }
+        }
+      }
+    }
+  }
+}
